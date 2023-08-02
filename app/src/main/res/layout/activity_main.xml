@@ -73,19 +73,23 @@
 
    <Button
 
+       android:id="@+id/btn"
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
-      android:id="@+id/btn"
        android:layout_below="@id/checkbox"
+
        android:layout_centerInParent="true"
+       android:layout_marginStart="@dimen/_30sdp"
+       android:layout_marginTop="@dimen/_30sdp"
 
-       android:textSize="@dimen/_25sdp"
-       android:hint="Login"
-       android:layout_margin="@dimen/_30sdp"
+       android:layout_marginEnd="@dimen/_30sdp"
+       android:layout_marginBottom="@dimen/_30sdp"
+       android:background="@drawable/custom_button"
        android:backgroundTint="@color/white"
-       android:textColorHint="@color/black"
-
-       />
+       android:hint="Login"
+       android:textColorHint="#4105A4"
+       android:textSize="@dimen/_25sdp"
+       app:backgroundTint="@null" />
 
 
 </RelativeLayout>
